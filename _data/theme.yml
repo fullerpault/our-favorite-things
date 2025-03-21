@@ -24,7 +24,7 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 # SUBJECTS PAGE
 #
 subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
+subjects-min: 2 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
@@ -53,14 +53,14 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 #
 # set either year-navigation or year-nav-increment to generate a year nav dropdown
 year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
-year-nav-increment: 5 # set increments to auto gen nav years
+year-nav-increment: 25 # set increments to auto gen nav years
 
 ##########
 # DATA 
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement,purl"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
 
@@ -107,6 +107,7 @@ font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/c
 # find the names on the BI icons page, e.g. file-image
 #
 # icons: 
+#  icon-image-fill: iiif
 #   icon-image: image
 #   icon-audio: soundwave
 #   icon-video: film
