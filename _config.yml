@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://fullerpault.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /north-of-nowhere
+baseurl: /our-favorite-things
 # location of code, the full url to your github repository
 source-code: https://github.com/fullerpault/our-favorite-things
 
@@ -18,9 +18,9 @@ source-code: https://github.com/fullerpault/our-favorite-things
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: North of Nowhere
+title: Our Favorite Things
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: North of Nowhere, West of the Moon - Myth, Fiction, and Fantasy in Maps
+tagline: Our Favorite Things
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "North of Nowhere, West of the Moon was a pop-up exhibit at the Osher Map Library in 2021"
@@ -34,7 +34,7 @@ author: fullerpault
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: north-of-nowhere-test
+metadata: our-favorite-things-test
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
