@@ -8,26 +8,10 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+We love a crowd-sourced exhibition here at the Osher Map Library and Smith Center for Cartographic Education, and so, when left with a two-month gap in our planned exhibition schedule for 2025-2026, we chose to take the opportunity to reach out to our staff, friends, University colleagues, and board members to inquire about some of their favorite items in our collections, and from that inquiry, to build a two-month “pop up” exhibit. And so, “Our Favorite Things,” came to life in January and February of 2025, largely organized by our newest staff member, Paul Fuller, our Coordinator of Digital Collections and Digital Initiatives, with able assistance by the OML staff and our wonderful preparator, Kevin Callahan. 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+This digital version of the exhibition includes some additional ways to think about and discover the items. When looking at each item take a moment to see who selected it and what keywords are associated with it. You can see what else that person selected or see other selections that are similar in either theme, subject, genre, and a whole host of other qualities.
 
-## About CollectionBuilder CSV
+As you browse through the items in this incredibly eclectic show, you’ll no doubt notice the broad range of items on display. “Broad range” can be defined in a few different ways. For instance, this show is temporally broad; items on display were created between 1574 and 2020, representing almost five centuries of cartographic work. The show is also spatially and geographically broad: on one wall you’ll be looking at the plan for an individual mill; turn around, and behind you is the entirety of the solar system. One map will take you to Gettysburg, Pennsylvania, while another will transport you to Spain. The exhibit is also broad in both a thematic and a topical sense: themes and topics covered range from love, morality, war, recreation and navigation, to fantasy, trash collection, the human body, wartime libraries, and games. It is a feast for the eyes!
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
-
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
-
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+Finally, we also asked a broad range of individuals to contribute to this exhibition by selecting their favorite items from the library’s collections. The entirety of the Osher Map Library staff is represented in this show, as are members of the USM community, including staff, faculty, administrators, and students. We also reached out to Board members and local educators. As it turns out, everyone who chose to participate had at least one favorite item, and in most cases, those items were different (it’s also fun to see where favorites overlap). Choosing one’s favorite items from a vast collection (we have nearly half a million items) is a very personal endeavor. Some participants chose maps that represent their homes and families, and people and places special to them in their personal and professional lives. Others selected items based on their research and teaching interests. Overwhelmingly, however, our participants tended towards items that spoke to them aesthetically and emotionally–items they find to be beautiful, or intriguing, or personally meaningful. For all of these reasons, our labels are a bit different for this exhibition. While they still communicate relevant information about the item on display (e.g. maker, title, year produced, etc.), the narrative text on each label was written by the person who chose the particular item. The labels also indicate who chose the map and wrote the label, and, in many cases, their relationship to the Osher Map Library and Smith Center for Cartographic Education and the University of Southern Maine. We hope that you are surprised and delighted by what you see on the walls, and that you are moved by the deeply personal nature of the selections.
