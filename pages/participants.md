@@ -6,6 +6,8 @@ permalink: /participants.html
 
 Here are all of the participants who answered the call about their favorite things.
 
+{% include feature/nav-menu.html sections="Wider Community;University of Southern Maine Community;Osher Map Library Foundation;Osher Map Library Staff" %}
+
 ## Wider Community
 [Earle G. Shettleworth, Jr.](browse.html#Earle%20G.%20Shettleworth,%20Jr.)\
 *Maine State Historian*
@@ -13,6 +15,14 @@ Here are all of the participants who answered the call about their favorite thin
 [Glenn Page](browse.html#glenn%20page)\
 *Executive Director\
 Collaborative for Bioregional Action Learning & Transformation*
+
+[Jamie Rice](browse.html#jamie%20rice)\
+*Deputy Director\
+Maine Historical Society*
+
+[Meghan Taylor](browse.html#meghan%20taylor)\
+*Grade 3 Classroom Teacher\
+Ocean Ave Elementary*
 
 [Tracey Menard](browse.html#tracey%20menard)\
 *Humanities Teacher\
@@ -49,6 +59,9 @@ Deering High School*
 [Katie Ellis](browse.html#katie%20ellis)\
 *Student Employee*
 
+[Michael Kmack](browse.html#michael%20kmack)\
+*Multimedia Associate, Office of Public Affairs*
+
 [Netty Provost](browse.html#netty%20provost)\
 *Director of the Lewiston Auburn Campus*
 
@@ -63,7 +76,7 @@ Deering High School*
 *Executive Director*
 
 [Ronald Grim](browse.html#ronald%20grim)\
-*Member*
+*Board Member*
 
 ## Osher Map Library Staff
 [Adinah Barnett](browse.html#adinah%20barnett)\

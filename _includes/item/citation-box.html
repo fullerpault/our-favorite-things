@@ -8,9 +8,9 @@
     <div class="card-body">
         <dl>
             <dt>Preferred Citation:</dt>
-            <dd>"{{ page.title }}", {{ site.title }}, {{ site.organization-name }}</dd>
-            <dt>Reference Link:</dt>
-            <dd>{{ page.url | absolute_url }}</dd>
+            <dd>"{{ page.title }}", {{ site.title }}, <a target="_blank" rel="noopener" href="https://oshermaps.org/">{{ site.organization-name }}</a></dd>
+            <dt>Permanent URL:</dt>
+            <dd><a target="_blank" rel="noopener" href="{{ page.purl }}">{{ page.purl }}</a></dd>
         </dl>
     </div>
 </div>
