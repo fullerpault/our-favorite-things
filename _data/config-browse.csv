@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
 creator,Creator,,,
-picked_by,Picked By,,,
+picked_by,Picked By,,,Picked By
 subject,,true
 location,,true
 identifier,,,true,Identifier
