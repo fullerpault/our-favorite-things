@@ -15,7 +15,10 @@
     <div class="card-body">
         <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Description</{{ include.heading_level | default: 'h2' | strip }}>
         <p class="card-text">{{ site.description }}</p>
+        <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">How to use the site</{{ include.heading_level | default: 'h2' | strip }}>
+        <p class="card-text">Click <a href="{{ '/browse.html' | relative_url }}">Browse</a> to see all of the items individuals submitted to the exhibit.</p>
+        <p class="card-text">Click <a href="{{ '/subjects.html' | relative_url }}">Subjects</a> or <a href="{{ '/locations.html' | relative_url }}">Locations</a> to see word clouds based on keywords.</p>
         {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}{% if about > 0 %}
-        <a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %}
+        <a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn more about the exhibit &raquo;</a>{% endif %}
     </div>
 </div>

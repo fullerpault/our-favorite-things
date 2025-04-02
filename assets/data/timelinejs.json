@@ -4,7 +4,7 @@
 # current using relative_url due to jekyll bug, should be absolute_url in production!
 # to just feature parent objects of compound objects, you will want to change the where_exp below to "where_exp: 'item','item.parentid == nil'"
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: 'item', 'item.date' -%}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.format contains "image"' -%}
 {
     "title": {
         "media": {
@@ -32,8 +32,8 @@
           "year": "{{ item.date }}"{% endif %}
         },
         "text": {
-          "headline": {{ item.title | jsonify }}{% if item.description %},
-          "text": {{ item.description | jsonify }}{% endif %}
+          "headline": {{ item.title | jsonify }},
+          "text": {{ item.description | append: "<h6>Picked by: " | append: item.picked_by | append: "</h6>" | jsonify }}
         }
       }{% unless forloop.last %},{% endunless %}{% endfor %}
     ]
